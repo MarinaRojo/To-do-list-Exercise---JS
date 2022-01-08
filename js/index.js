@@ -5,6 +5,7 @@ todolist.innerHTML="<p>No hay tareas</p>";
 const handleClick=(event)=>{
     const tarea=document.querySelector('#tarea');
     list.push(tarea.value);
+    tarea.value="";
     printToDoList();
 };
 
